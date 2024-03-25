@@ -29,8 +29,14 @@ body:
       required: true
         - type: textarea
     attributes:
-      label: 有効にしている機能
-      placeholder: 
+      label: 有効にしている設定
+      placeholder: 可能な限り具体的に記述してください
+    validations:
+      required: true
+        - type: input
+    attributes:
+      label: LS Patch or Root
+      placeholder: LsPach or root
     validations:
       required: true
   - type: input
